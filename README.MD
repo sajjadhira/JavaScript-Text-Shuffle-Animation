@@ -48,8 +48,8 @@ To use the text shuffle animation, you need to initialize the library and add `.
 ## Options
 
 - `.shuffle`: add shuffle class to animate the desier element.
-- `data-shuffle-duration`: The speed of the shuffle animation in milliseconds.
-- `data-shuffle-type`: The number of times the text will shuffle before settling.
+- `data-shuffle-duration`: The speed of the shuffle animation in milliseconds and default duration is 25ms.
+- `data-shuffle-type`: The type of animation. Available option values are `letter` , `number` and `symbol` and default option is symbol.
 
 ## License
 
