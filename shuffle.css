@@ -1,0 +1,48 @@
+/* General Styles */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #0d0d0d;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Shuffle Text Animation */
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* Link Hover Animation */
+a.hover-link {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #00bcd4;
+  position: relative;
+  transition: color 0.3s;
+}
+
+a.hover-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background: #00bcd4;
+  transition: width 0.3s ease-in-out;
+}
+
+a.hover-link:hover {
+  color: #ff4081;
+}
+
+a.hover-link:hover::after {
+  width: 100%;
+}
