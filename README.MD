@@ -61,4 +61,4 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 ## Contact
 
-For any questions or suggestions, please contact [your-email@example.com].
+For any questions or suggestions, please contact  <img src="https://tools.inihub.com/text_to_image.php?type=email&username=sajjad.hira12&provider=gmail" />.
